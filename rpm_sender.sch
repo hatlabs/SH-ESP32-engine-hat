@@ -16,23 +16,23 @@ $EndDescr
 $Comp
 L Device:R R501
 U 1 1 607126A4
-P 2900 2650
-F 0 "R501" V 2693 2650 50  0000 C CNN
-F 1 "1.8k" V 2784 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2830 2650 50  0001 C CNN
-F 3 "~" H 2900 2650 50  0001 C CNN
-	1    2900 2650
+P 3100 2650
+F 0 "R501" V 2893 2650 50  0000 C CNN
+F 1 "3.3k" V 2984 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3030 2650 50  0001 C CNN
+F 3 "~" H 3100 2650 50  0001 C CNN
+	1    3100 2650
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C501
+L Device:C C502
 U 1 1 607136D7
-P 3600 2950
-F 0 "C501" H 3715 2996 50  0000 L CNN
-F 1 "3.9nF" H 3715 2905 50  0000 L CNN
-F 2 "" H 3638 2800 50  0001 C CNN
-F 3 "~" H 3600 2950 50  0001 C CNN
-	1    3600 2950
+P 3900 2950
+F 0 "C502" H 4015 2996 50  0000 L CNN
+F 1 "4.7nF" H 4015 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 2800 50  0001 C CNN
+F 3 "~" H 3900 2950 50  0001 C CNN
+	1    3900 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -41,35 +41,26 @@ U 1 1 60715C5C
 P 2400 2750
 F 0 "J501" H 2318 2425 50  0000 C CNN
 F 1 "Conn_01x02" H 2318 2516 50  0000 C CNN
-F 2 "" H 2400 2750 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 2400 2750 50  0001 C CNN
 F 3 "~" H 2400 2750 50  0001 C CNN
 	1    2400 2750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3600 3200 3600 3100
+	3900 3700 3900 3100
 Wire Wire Line
-	3600 2800 3600 2650
-Wire Wire Line
-	3600 2650 3400 2650
+	3900 2800 3900 2650
 Wire Wire Line
 	2750 3200 2750 2750
 Wire Wire Line
 	2750 2750 2600 2750
-Wire Wire Line
-	2600 2650 2750 2650
 Text Notes 1700 3050 0    50   ~ 0
 To tach sender or\nalternator W-terminal\n
 Text Notes 5200 2950 0    50   ~ 0
 To SH-ESP32 opto input
 Text Notes 2700 2200 0    50   ~ 0
-RC filter cutoff freq 11.3 kHz
+RC filter cutoff freq 10.2 kHz
 Text Label 2750 3200 0    50   ~ 0
-ISO_GND
-Text Label 3600 3200 0    50   ~ 0
-ISO_GND
-Connection ~ 3600 2650
-Text Label 4350 3200 0    50   ~ 0
 ISO_GND
 Wire Wire Line
 	4350 3200 4350 3100
@@ -84,43 +75,60 @@ U 1 1 60720462
 P 4350 2950
 F 0 "D501" V 4304 3030 50  0000 L CNN
 F 1 "BZT52C16S" V 4395 3030 50  0000 L CNN
-F 2 "" H 4350 2950 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 4350 2950 50  0001 C CNN
 F 3 "~" H 4350 2950 50  0001 C CNN
+F 4 "C173447" V 4350 2950 50  0001 C CNN "LCSC"
 	1    4350 2950
 	0    1    1    0   
 $EndComp
-Text Label 5000 3200 0    50   ~ 0
-ISO_GND
-Wire Wire Line
-	3600 2650 4350 2650
-Wire Wire Line
-	5000 2750 5050 2750
-Wire Wire Line
-	5000 3200 5000 2750
-$Comp
-L Connector_Generic:Conn_01x02 J502
-U 1 1 60714C5D
-P 5250 2750
-F 0 "J502" H 5168 2425 50  0000 C CNN
-F 1 "Conn_01x02" H 5168 2516 50  0000 C CNN
-F 2 "" H 5250 2750 50  0001 C CNN
-F 3 "~" H 5250 2750 50  0001 C CNN
-	1    5250 2750
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R502
-U 1 1 60723215
-P 3250 2650
-F 0 "R502" V 3043 2650 50  0000 C CNN
-F 1 "1.8k" V 3134 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3180 2650 50  0001 C CNN
-F 3 "~" H 3250 2650 50  0001 C CNN
-	1    3250 2650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3100 2650 3050 2650
 Text Notes 4100 2200 0    50   ~ 0
 Zener used to limit the \noptocoupler forward current
+Wire Wire Line
+	2600 2650 2950 2650
+Connection ~ 3900 2650
+Wire Wire Line
+	3900 2650 4350 2650
+Wire Wire Line
+	3250 2650 3450 2650
+$Comp
+L Jumper:SolderJumper_2_Open JP501
+U 1 1 6081D779
+P 3450 2950
+F 0 "JP501" V 3496 2862 50  0000 R CNN
+F 1 "SolderJumper_2_Open" V 3400 2850 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3450 2950 50  0001 C CNN
+F 3 "~" H 3450 2950 50  0001 C CNN
+	1    3450 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 2800 3450 2650
+Connection ~ 3450 2650
+Wire Wire Line
+	3450 2650 3900 2650
+$Comp
+L Device:C C501
+U 1 1 6081F4A1
+P 3450 3350
+F 0 "C501" H 3565 3396 50  0000 L CNN
+F 1 "47nF" H 3565 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3488 3200 50  0001 C CNN
+F 3 "~" H 3450 3350 50  0001 C CNN
+	1    3450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3200 3450 3100
+Wire Wire Line
+	3450 3700 3450 3500
+Text Notes 1900 3800 0    50   ~ 0
+If JP501 is closed, cutoff frequency\nfalls to roughly 1 kHz
+Text GLabel 4350 3200 3    50   Input ~ 0
+ISO_GND
+Text GLabel 3900 3700 3    50   Input ~ 0
+ISO_GND
+Text GLabel 3450 3700 3    50   Input ~ 0
+ISO_GND
+Text HLabel 5050 2650 2    50   Input ~ 0
+ISO_IN
 $EndSCHEMATC

@@ -13,34 +13,6 @@ Comment2 "To view a copy of this license, visit "
 Comment3 "This design is licensed under CC BY-SA 4.0."
 Comment4 ""
 $EndDescr
-Text Notes 1600 1600 0    50   ~ 0
-Mounting holes
-$Comp
-L Mechanical:MountingHole H?
-U 1 1 5FC0D03D
-P 1900 1850
-AR Path="/5FC50B89/5FC0D03D" Ref="H?"  Part="1" 
-AR Path="/5FC0C355/5FC0D03D" Ref="H201"  Part="1" 
-F 0 "H201" H 2000 1896 50  0000 L CNN
-F 1 "MountingHole" H 2000 1805 50  0000 L CNN
-F 2 "SH-ESP32:MountingSlot_3.2mm_M3_Unplated" H 1900 1850 50  0001 C CNN
-F 3 "~" H 1900 1850 50  0001 C CNN
-	1    1900 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H?
-U 1 1 5FC0D043
-P 1900 2150
-AR Path="/5FC50B89/5FC0D043" Ref="H?"  Part="1" 
-AR Path="/5FC0C355/5FC0D043" Ref="H202"  Part="1" 
-F 0 "H202" H 2000 2196 50  0000 L CNN
-F 1 "MountingHole" H 2000 2105 50  0000 L CNN
-F 2 "SH-ESP32:MountingSlot_3.2mm_M3_Unplated" H 1900 2150 50  0001 C CNN
-F 3 "~" H 1900 2150 50  0001 C CNN
-	1    1900 2150
-	1    0    0    -1  
-$EndComp
 Text Notes 3450 1350 0    50   ~ 0
 Decoupling caps
 $Comp
@@ -697,4 +669,36 @@ $EndComp
 Wire Wire Line
 	4700 3250 4700 3050
 Connection ~ 4400 3250
+$Comp
+L Connector_Generic:Conn_01x03 J201
+U 1 1 609D8094
+P 1850 3100
+F 0 "J201" H 1768 3417 50  0000 C CNN
+F 1 "Conn_01x03" H 1768 3326 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1850 3100 50  0001 C CNN
+F 3 "~" H 1850 3100 50  0001 C CNN
+F 4 "C225500" H 1850 3100 50  0001 C CNN "LCSC"
+	1    1850 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J202
+U 1 1 609D8FB8
+P 1850 3650
+F 0 "J202" H 1768 3967 50  0000 C CNN
+F 1 "Conn_01x03" H 1768 3876 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1850 3650 50  0001 C CNN
+F 3 "~" H 1850 3650 50  0001 C CNN
+F 4 "C225500" H 1850 3650 50  0001 C CNN "LCSC"
+	1    1850 3650
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2050 3000
+NoConn ~ 2050 3100
+NoConn ~ 2050 3200
+NoConn ~ 2050 3550
+NoConn ~ 2050 3650
+NoConn ~ 2050 3750
+Text Notes 1600 2450 0    50   ~ 0
+Mounting headers
 $EndSCHEMATC

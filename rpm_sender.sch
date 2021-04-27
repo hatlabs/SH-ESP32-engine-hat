@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
-Title "Tank Top Hat for SH-ESP32"
-Date "2021-04-21"
+Sheet 5 6
+Title "Engine Top Hat for SH-ESP32"
+Date "2021-04-27"
 Rev "0.1.0"
 Comp "Hat Labs Ltd"
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
@@ -43,9 +43,9 @@ U 1 1 60715C5C
 P 2400 2750
 F 0 "J501" H 2318 2425 50  0000 C CNN
 F 1 "Conn_01x02" H 2318 2516 50  0000 C CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 2400 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2400 2750 50  0001 C CNN
 F 3 "~" H 2400 2750 50  0001 C CNN
-F 4 "C441332" H 2400 2750 50  0001 C CNN "LCSC"
+F 4 "C358684" H 2400 2750 50  0001 C CNN "LCSC"
 	1    2400 2750
 	-1   0    0    1   
 $EndComp

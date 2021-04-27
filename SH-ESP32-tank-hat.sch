@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title "Tank Top Hat for SH-ESP32"
-Date "2021-04-21"
+Title "Engine Top Hat for SH-ESP32"
+Date "2021-04-27"
 Rev "0.1.0"
 Comp "Hat Labs Ltd"
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"

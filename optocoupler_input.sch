@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
-Title ""
-Date ""
+Title "Engine Top Hat for SH-ESP32"
+Date "2021-04-27"
 Rev ""
 Comp ""
 Comment1 ""

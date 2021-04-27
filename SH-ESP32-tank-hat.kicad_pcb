@@ -11,13 +11,13 @@
 
   (page A4)
   (title_block
-    (title "Sailor Hat for ESP32")
-    (date 2020-11-25)
-    (rev 0.2.0)
-    (company "Hat Laboratories")
+    (title "Engine Top Hat for SH-ESP32")
+    (date 2021-04-27)
+    (rev 0.1.0)
+    (company "Hat Labs Ltd")
     (comment 1 https://creativecommons.org/licenses/by-sa/4.0)
     (comment 2 "To view a copy of this license, visit ")
-    (comment 3 "Sailor Hat for ESP32 is licensed under CC BY-SA 4.0.")
+    (comment 3 "This design is licensed under CC BY-SA 4.0.")
   )
 
   (layers

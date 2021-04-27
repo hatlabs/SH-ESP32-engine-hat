@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title "Tank Top Hat for SH-ESP32"
 Date "2021-04-21"
 Rev "0.1.0"
@@ -188,6 +188,7 @@ F 0 "J307" H 6180 4542 50  0000 L CNN
 F 1 "Opto_top" H 6180 4451 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6100 4500 50  0001 C CNN
 F 3 "~" H 6100 4500 50  0001 C CNN
+F 4 "C390679" H 6100 4500 50  0001 C CNN "LCSC"
 	1    6100 4500
 	1    0    0    -1  
 $EndComp
@@ -232,9 +233,9 @@ Wire Wire Line
 NoConn ~ 2700 2800
 NoConn ~ 2700 2900
 Text HLabel 3200 2800 2    50   Input ~ 0
-ADC_A
+GPIO39
 Text HLabel 3200 2900 2    50   Input ~ 0
-ADC_B
+GPIO36
 Wire Wire Line
 	3200 3000 3600 3000
 Wire Wire Line
@@ -261,14 +262,27 @@ F 3 "" H 2550 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J303
+L Connector_Generic:Conn_02x08_Odd_Even J303
 U 1 1 60AA590D
-P 2900 2800
-F 0 "J303" H 2950 3117 50  0000 C CNN
-F 1 "GPIO subset" H 2950 3026 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 2900 2800 50  0001 C CNN
-F 3 "~" H 2900 2800 50  0001 C CNN
-	1    2900 2800
+P 2900 2600
+F 0 "J303" H 2950 3100 50  0000 C CNN
+F 1 "GPIO subset" H 2950 3000 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 2900 2600 50  0001 C CNN
+F 3 "~" H 2900 2600 50  0001 C CNN
+F 4 "C706898" H 2900 2600 50  0001 C CNN "LCSC"
+	1    2900 2600
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2700 2600
+NoConn ~ 2700 2500
+NoConn ~ 2700 2400
+NoConn ~ 2700 2300
+Text HLabel 3200 2600 2    50   Input ~ 0
+GPIO12
+Text HLabel 3200 2500 2    50   Input ~ 0
+GPIO14
+Text HLabel 3200 2400 2    50   Input ~ 0
+GPIO13
+Text HLabel 3200 2300 2    50   Input ~ 0
+GPIO15
 $EndSCHEMATC

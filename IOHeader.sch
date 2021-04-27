@@ -186,9 +186,9 @@ U 1 1 60A8A23A
 P 6100 4500
 F 0 "J307" H 6180 4542 50  0000 L CNN
 F 1 "Opto_top" H 6180 4451 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6100 4500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6100 4500 50  0001 C CNN
 F 3 "~" H 6100 4500 50  0001 C CNN
-F 4 "C390679" H 6100 4500 50  0001 C CNN "LCSC"
+F 4 "C492402" H 6100 4500 50  0001 C CNN "LCSC"
 	1    6100 4500
 	1    0    0    -1  
 $EndComp

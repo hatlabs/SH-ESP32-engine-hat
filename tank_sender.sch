@@ -35,7 +35,7 @@ F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1550 4250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 1650 4350 50  0001 C CNN
 F 4 "C362275" H 1600 4150 50  0001 C CNN "LCSC"
 	2    1600 4150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:LMV324 U401
@@ -710,7 +710,7 @@ F 3 "" H 3600 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 4800 3600 5150
+	3600 4800 3600 5050
 $Comp
 L SH-ESP32-tank-hat:RCLAMP0524P-N U402
 U 1 1 60AE472B
@@ -731,4 +731,18 @@ Wire Wire Line
 	2700 4700 3400 4700
 Connection ~ 2700 4700
 Connection ~ 3400 4700
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60A70773
+P 3600 5050
+F 0 "#FLG0102" H 3600 5125 50  0001 C CNN
+F 1 "PWR_FLAG" V 3600 5178 50  0000 L CNN
+F 2 "" H 3600 5050 50  0001 C CNN
+F 3 "~" H 3600 5050 50  0001 C CNN
+	1    3600 5050
+	0    1    1    0   
+$EndComp
+Connection ~ 3600 5050
+Wire Wire Line
+	3600 5050 3600 5150
 $EndSCHEMATC

@@ -51,12 +51,6 @@ F1 "rpm_sender.sch" 50
 F2 "ISO_IN" I L 2900 3200 50 
 $EndSheet
 Wire Wire Line
-	1950 1400 2050 1400
-NoConn ~ 2050 1400
-Wire Wire Line
-	1950 1600 2050 1600
-NoConn ~ 2050 1600
-Wire Wire Line
 	1950 1500 2050 1500
 Text Label 2050 1500 0    50   ~ 0
 ISO_IN
@@ -64,9 +58,6 @@ Text Label 2800 3200 2    50   ~ 0
 ISO_IN
 Wire Wire Line
 	2800 3200 2900 3200
-Wire Wire Line
-	1950 2500 2050 2500
-NoConn ~ 2050 2500
 $Sheet
 S 850  4550 1300 1300
 U 608ADFF7

@@ -59,7 +59,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 4400 3800 4150
 Wire Wire Line
-	3000 4400 3800 4400
+	3000 4400 3600 4400
 $Comp
 L Connector_Generic:Conn_01x04 J304
 U 1 1 6087E6CF
@@ -285,4 +285,18 @@ Text HLabel 3200 2400 2    50   Input ~ 0
 GPIO13
 Text HLabel 3200 2300 2    50   Input ~ 0
 GPIO15
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60A713CE
+P 3600 4400
+F 0 "#FLG0101" H 3600 4475 50  0001 C CNN
+F 1 "PWR_FLAG" H 3600 4573 50  0000 C CNN
+F 2 "" H 3600 4400 50  0001 C CNN
+F 3 "~" H 3600 4400 50  0001 C CNN
+	1    3600 4400
+	-1   0    0    1   
+$EndComp
+Connection ~ 3600 4400
+Wire Wire Line
+	3600 4400 3800 4400
 $EndSCHEMATC

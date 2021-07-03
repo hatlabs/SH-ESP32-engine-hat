@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 5
 Title "Engine Top Hat for SH-ESP32"
 Date "2021-04-27"
 Rev "0.1.0"
@@ -15,22 +15,6 @@ Comment4 ""
 $EndDescr
 Text Notes 3450 1350 0    50   ~ 0
 Decoupling caps
-$Comp
-L Device:C C?
-U 1 1 5FC0EFBF
-P 3750 1850
-AR Path="/5D6F1C7C/5FC0EFBF" Ref="C?"  Part="1" 
-AR Path="/5C348474/5FC0EFBF" Ref="C?"  Part="1" 
-AR Path="/5F733BA4/5FC0EFBF" Ref="C?"  Part="1" 
-AR Path="/5FC0C355/5FC0EFBF" Ref="C201"  Part="1" 
-F 0 "C201" V 3650 1950 50  0000 L CNN
-F 1 "100nF" V 3650 1550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3788 1700 50  0001 C CNN
-F 3 "~" H 3750 1850 50  0001 C CNN
-F 4 "C1525" H 3750 1850 50  0001 C CNN "LCSC"
-	1    3750 1850
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5FC0F391
@@ -49,38 +33,6 @@ F 4 "C1525" H 3750 2050 50  0001 C CNN "LCSC"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 5FC0F7E8
-P 3750 2250
-AR Path="/5D6F1C7C/5FC0F7E8" Ref="C?"  Part="1" 
-AR Path="/5C348474/5FC0F7E8" Ref="C?"  Part="1" 
-AR Path="/5F733BA4/5FC0F7E8" Ref="C?"  Part="1" 
-AR Path="/5FC0C355/5FC0F7E8" Ref="C203"  Part="1" 
-F 0 "C203" V 3650 2350 50  0000 L CNN
-F 1 "100nF" V 3650 1950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3788 2100 50  0001 C CNN
-F 3 "~" H 3750 2250 50  0001 C CNN
-F 4 "C1525" H 3750 2250 50  0001 C CNN "LCSC"
-	1    3750 2250
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FC0FB07
-P 3750 2450
-AR Path="/5D6F1C7C/5FC0FB07" Ref="C?"  Part="1" 
-AR Path="/5C348474/5FC0FB07" Ref="C?"  Part="1" 
-AR Path="/5F733BA4/5FC0FB07" Ref="C?"  Part="1" 
-AR Path="/5FC0C355/5FC0FB07" Ref="C204"  Part="1" 
-F 0 "C204" V 3650 2550 50  0000 L CNN
-F 1 "100nF" V 3650 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3788 2300 50  0001 C CNN
-F 3 "~" H 3750 2450 50  0001 C CNN
-F 4 "C1525" H 3750 2450 50  0001 C CNN "LCSC"
-	1    3750 2450
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 5FC0FECE
 P 3750 2650
 AR Path="/5D6F1C7C/5FC0FECE" Ref="C?"  Part="1" 
@@ -93,22 +45,6 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 3788 2500 50  0001 C CNN
 F 3 "~" H 3750 2650 50  0001 C CNN
 F 4 "C1525" H 3750 2650 50  0001 C CNN "LCSC"
 	1    3750 2650
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FC1024D
-P 3750 2850
-AR Path="/5D6F1C7C/5FC1024D" Ref="C?"  Part="1" 
-AR Path="/5C348474/5FC1024D" Ref="C?"  Part="1" 
-AR Path="/5F733BA4/5FC1024D" Ref="C?"  Part="1" 
-AR Path="/5FC0C355/5FC1024D" Ref="C206"  Part="1" 
-F 0 "C206" V 3650 2950 50  0000 L CNN
-F 1 "100nF" V 3650 2550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3788 2700 50  0001 C CNN
-F 3 "~" H 3750 2850 50  0001 C CNN
-F 4 "C1525" H 3750 2850 50  0001 C CNN "LCSC"
-	1    3750 2850
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -191,39 +127,10 @@ F 4 "C1525" H 3750 3850 50  0001 C CNN "LCSC"
 	1    3750 3850
 	0    -1   1    0   
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5FC11AEF
-P 3750 4050
-AR Path="/5D6F1C7C/5FC11AEF" Ref="C?"  Part="1" 
-AR Path="/5C348474/5FC11AEF" Ref="C?"  Part="1" 
-AR Path="/5F733BA4/5FC11AEF" Ref="C?"  Part="1" 
-AR Path="/5FC0C355/5FC11AEF" Ref="C212"  Part="1" 
-F 0 "C212" V 3650 4150 50  0000 L CNN
-F 1 "100nF" V 3650 3750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3788 3900 50  0001 C CNN
-F 3 "~" H 3750 4050 50  0001 C CNN
-F 4 "C1525" H 3750 4050 50  0001 C CNN "LCSC"
-	1    3750 4050
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	3600 1850 3600 2050
 Connection ~ 3600 2050
-Wire Wire Line
-	3600 2050 3600 2250
-Connection ~ 3600 2250
-Wire Wire Line
-	3600 2250 3600 2450
-Connection ~ 3600 2450
-Wire Wire Line
-	3600 2450 3600 2650
 Connection ~ 3600 2650
-Wire Wire Line
-	3600 2650 3600 2850
-Connection ~ 3600 2850
-Wire Wire Line
-	3600 2850 3600 3050
 Connection ~ 3600 3050
 Wire Wire Line
 	3600 3050 3600 3250
@@ -237,29 +144,9 @@ Connection ~ 3600 3650
 Wire Wire Line
 	3600 3650 3600 3850
 Connection ~ 3600 3850
-Wire Wire Line
-	3600 3850 3600 4050
-Connection ~ 3900 1850
-Wire Wire Line
-	3900 1850 3900 1650
 Connection ~ 3900 2050
-Wire Wire Line
-	3900 2050 3900 1850
-Connection ~ 3900 2250
-Wire Wire Line
-	3900 2250 3900 2050
-Connection ~ 3900 2450
-Wire Wire Line
-	3900 2450 3900 2250
 Connection ~ 3900 2650
-Wire Wire Line
-	3900 2650 3900 2450
-Connection ~ 3900 2850
-Wire Wire Line
-	3900 2850 3900 2650
 Connection ~ 3900 3050
-Wire Wire Line
-	3900 3050 3900 2850
 Connection ~ 3900 3250
 Wire Wire Line
 	3900 3250 3900 3050
@@ -269,11 +156,8 @@ Wire Wire Line
 Connection ~ 3900 3650
 Wire Wire Line
 	3900 3650 3900 3450
-Connection ~ 3900 3850
 Wire Wire Line
 	3900 3850 3900 3650
-Wire Wire Line
-	3900 4050 3900 3850
 $Comp
 L power:+3.3V #PWR0202
 U 1 1 5FC15C1D
@@ -297,6 +181,29 @@ F 3 "" H 3600 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 4200 3600 4050
-Connection ~ 3600 4050
+	3600 4200 3600 4150
+$Comp
+L power:PWR_FLAG #FLG0201
+U 1 1 60EDF474
+P 3600 4150
+F 0 "#FLG0201" H 3600 4225 50  0001 C CNN
+F 1 "PWR_FLAG" V 3600 4277 50  0000 L CNN
+F 2 "" H 3600 4150 50  0001 C CNN
+F 3 "~" H 3600 4150 50  0001 C CNN
+	1    3600 4150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3600 4150
+Wire Wire Line
+	3600 3850 3600 4150
+Wire Wire Line
+	3600 2650 3600 3050
+Wire Wire Line
+	3900 2650 3900 3050
+Wire Wire Line
+	3900 1650 3900 2050
+Wire Wire Line
+	3600 2050 3600 2650
+Wire Wire Line
+	3900 2050 3900 2650
 $EndSCHEMATC

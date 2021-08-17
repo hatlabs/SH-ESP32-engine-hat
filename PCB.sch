@@ -206,4 +206,37 @@ Wire Wire Line
 	3600 2050 3600 2650
 Wire Wire Line
 	3900 2050 3900 2650
+$Comp
+L Mechanical:MountingHole H201
+U 1 1 612E7184
+P 1500 1650
+F 0 "H201" H 1600 1696 50  0000 L CNN
+F 1 "Tooling hole" H 1600 1605 50  0000 L CNN
+F 2 "SH-ESP32-tank-hat:JlcpcbToolingHole" H 1500 1650 50  0001 C CNN
+F 3 "~" H 1500 1650 50  0001 C CNN
+	1    1500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H202
+U 1 1 612E755B
+P 1500 1900
+F 0 "H202" H 1600 1946 50  0000 L CNN
+F 1 "Tooling hole" H 1600 1855 50  0000 L CNN
+F 2 "SH-ESP32-tank-hat:JlcpcbToolingHole" H 1500 1900 50  0001 C CNN
+F 3 "~" H 1500 1900 50  0001 C CNN
+	1    1500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H203
+U 1 1 612E7C94
+P 1500 2150
+F 0 "H203" H 1600 2196 50  0000 L CNN
+F 1 "Tooling hole" H 1600 2105 50  0000 L CNN
+F 2 "SH-ESP32-tank-hat:JlcpcbToolingHole" H 1500 2150 50  0001 C CNN
+F 3 "~" H 1500 2150 50  0001 C CNN
+	1    1500 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

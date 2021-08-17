@@ -1516,15 +1516,6 @@ Wire Wire Line
 	9800 2700 9800 2600
 NoConn ~ 10200 3450
 Wire Wire Line
-	10200 3850 10350 3850
-Wire Wire Line
-	10350 3850 10350 3650
-Wire Wire Line
-	10350 3650 10200 3650
-Wire Wire Line
-	10350 3650 10500 3650
-Connection ~ 10350 3650
-Wire Wire Line
 	10200 3750 10500 3750
 Text Label 9400 3550 2    50   ~ 0
 ADC_A
@@ -1565,4 +1556,115 @@ F 4 "C124386" H 3350 2100 50  0001 C CNN "LCSC"
 $EndComp
 Text Notes 3050 1700 0    50   ~ 0
 Connect headers with a jumper\nto enable the constant current\nsource (active resistance\nmeasurement).
+Wire Wire Line
+	10200 3650 10500 3650
+Text Label 10200 3850 0    50   ~ 0
+ADDR
+Text Label 9150 5450 2    50   ~ 0
+ADDR
+Wire Wire Line
+	9150 5450 9300 5450
+Connection ~ 9300 5450
+$Comp
+L power:GND #PWR0540
+U 1 1 61209926
+P 9800 6000
+F 0 "#PWR0540" H 9800 5750 50  0001 C CNN
+F 1 "GND" H 9805 5827 50  0000 C CNN
+F 2 "" H 9800 6000 50  0001 C CNN
+F 3 "" H 9800 6000 50  0001 C CNN
+	1    9800 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 6000 9800 5900
+Wire Wire Line
+	9800 5900 9650 5900
+$Comp
+L power:+3V3 #PWR0539
+U 1 1 61210740
+P 9800 4900
+F 0 "#PWR0539" H 9800 4750 50  0001 C CNN
+F 1 "+3V3" H 9815 5073 50  0000 C CNN
+F 2 "" H 9800 4900 50  0001 C CNN
+F 3 "" H 9800 4900 50  0001 C CNN
+	1    9800 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 5000 9800 5000
+Wire Wire Line
+	9800 5000 9800 4900
+Text HLabel 9800 5300 2    50   Input ~ 0
+SCL
+Text HLabel 9800 5600 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	9800 5600 9650 5600
+Wire Wire Line
+	9650 5300 9800 5300
+Text Notes 8550 5250 0    50   ~ 0
+ADS1115 I2C\naddress selection
+$Comp
+L Jumper:SolderJumper_2_Open JP504
+U 1 1 61247770
+P 9500 5900
+F 0 "JP504" H 9500 6105 50  0000 C CNN
+F 1 "Open" H 9500 6014 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9500 5900 50  0001 C CNN
+F 3 "~" H 9500 5900 50  0001 C CNN
+	1    9500 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5000 9300 5300
+Wire Wire Line
+	9300 5450 9300 5600
+$Comp
+L Jumper:SolderJumper_2_Open JP503
+U 1 1 61256842
+P 9500 5600
+F 0 "JP503" H 9500 5805 50  0000 C CNN
+F 1 "Open" H 9500 5714 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9500 5600 50  0001 C CNN
+F 3 "~" H 9500 5600 50  0001 C CNN
+	1    9500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP501
+U 1 1 61256CD1
+P 9500 5000
+F 0 "JP501" H 9500 5205 50  0000 C CNN
+F 1 "Open" H 9500 5114 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9500 5000 50  0001 C CNN
+F 3 "~" H 9500 5000 50  0001 C CNN
+	1    9500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5900 9300 5900
+Wire Wire Line
+	9350 5600 9300 5600
+Connection ~ 9300 5600
+Wire Wire Line
+	9300 5600 9300 5900
+Wire Wire Line
+	9350 5300 9300 5300
+Connection ~ 9300 5300
+Wire Wire Line
+	9300 5300 9300 5450
+Wire Wire Line
+	9350 5000 9300 5000
+$Comp
+L Jumper:SolderJumper_2_Bridged JP502
+U 1 1 61245CDA
+P 9500 5300
+F 0 "JP502" H 9500 5505 50  0000 C CNN
+F 1 "Bridged" H 9500 5414 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 9500 5300 50  0001 C CNN
+F 3 "~" H 9500 5300 50  0001 C CNN
+	1    9500 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

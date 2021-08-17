@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TCMD4000
+D DC Quad Darlington Optocoupler, Vce 300V, CTR 1000%, DIP16
+K NPN Quad Darlington DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627
+$ENDCMP
+#
 #End Doc Library

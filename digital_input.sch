@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "Engine Top Hat for SH-ESP32"
-Date "2021-04-27"
-Rev ""
+Date "2021-09-13"
+Rev "0.2.1"
 Comp ""
 Comment1 ""
 Comment2 ""

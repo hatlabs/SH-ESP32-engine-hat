@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
 Title "Engine Top Hat for SH-ESP32"
-Date "2021-04-27"
-Rev "0.1.0"
+Date "2021-09-13"
+Rev "0.2.1"
 Comp "Hat Labs Ltd"
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
 Comment2 "To view a copy of this license, visit "

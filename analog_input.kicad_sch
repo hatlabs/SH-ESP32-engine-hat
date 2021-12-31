@@ -6,8 +6,8 @@
 
   (title_block
     (title "Engine Top Hat for SH-ESP32")
-    (date "2021-09-13")
-    (rev "0.2.1")
+    (date "2021-12-31")
+    (rev "1.0.0")
     (company "Hat Labs Ltd")
     (comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
     (comment 2 "To view a copy of this license, visit ")

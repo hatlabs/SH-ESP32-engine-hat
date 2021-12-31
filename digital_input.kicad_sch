@@ -6,8 +6,8 @@
 
   (title_block
     (title "Engine Top Hat for SH-ESP32")
-    (date "2021-09-13")
-    (rev "0.2.1")
+    (date "2021-12-31")
+    (rev "1.0.0")
   )
 
   (lib_symbols
@@ -453,7 +453,6 @@
       )
     )
   )
-
 
   (junction (at 173.99 142.24) (diameter 0) (color 0 0 0 0)
     (uuid 2165c9a4-eb84-4cb6-a870-2fdc39d2511b)

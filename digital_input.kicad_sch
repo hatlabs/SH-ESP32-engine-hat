@@ -220,23 +220,29 @@
         )
       )
     )
-    (symbol "Device:Ferrite_Bead_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "Device:FerriteBead_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (id 0) (at 1.905 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Device_Ferrite_Bead_Small" (id 1) (at 1.905 -1.27 0)
+      (property "Value" "FerriteBead_Small" (id 1) (at 1.905 -1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (id 2) (at -1.778 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 4) (at 0 0 0)
+      (property "ki_keywords" "L ferrite bead inductor filter" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Ferrite_Bead_Small_0_1"
+      (property "ki_description" "Ferrite bead, small symbol" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "FerriteBead_Small_0_1"
         (polyline
           (pts
             (xy 0 -1.27)
@@ -265,7 +271,7 @@
           (fill (type none))
         )
       )
-      (symbol "Ferrite_Bead_Small_1_1"
+      (symbol "FerriteBead_Small_1_1"
         (pin passive line (at 0 2.54 270) (length 1.27)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -447,6 +453,7 @@
       )
     )
   )
+
 
   (junction (at 173.99 142.24) (diameter 0) (color 0 0 0 0)
     (uuid 2165c9a4-eb84-4cb6-a870-2fdc39d2511b)
@@ -1080,7 +1087,7 @@
     (pin "1" (uuid 05375137-9281-4b65-ac1b-42f6567c9eb8))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 95.25 43.18 0) (mirror y)
+  (symbol (lib_id "Device:C_Small") (at 95.25 43.18 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e77832)
     (property "Reference" "C301" (id 0) (at 92.9132 42.0116 0)
@@ -1102,7 +1109,7 @@
     (pin "2" (uuid ceae239b-7a9a-4177-bdc8-61a443b83d1d))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 105.41 43.18 0)
+  (symbol (lib_id "Device:C_Small") (at 105.41 43.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e77838)
     (property "Reference" "C305" (id 0) (at 107.7468 42.0116 0)
@@ -1124,7 +1131,7 @@
     (pin "2" (uuid ebba0a5d-3f02-4579-8707-5ca944418294))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead_Small") (at 100.33 39.37 270)
+  (symbol (lib_id "Device:FerriteBead_Small") (at 100.33 39.37 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e7783e)
     (property "Reference" "FB301" (id 0) (at 100.33 33.3502 90))
@@ -1142,7 +1149,7 @@
     (pin "2" (uuid 647e5301-9da9-4652-9179-bb991b4bde3a))
   )
 
-  (symbol (lib_id "power:GND") (at 95.25 46.99 0)
+  (symbol (lib_id "power:GND") (at 95.25 46.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e77844)
     (property "Reference" "#PWR0302" (id 0) (at 95.25 53.34 0)
@@ -1158,7 +1165,7 @@
     (pin "1" (uuid bbe7fdc3-10e4-4c83-8766-853aff9e9726))
   )
 
-  (symbol (lib_id "power:GND") (at 105.41 46.99 0)
+  (symbol (lib_id "power:GND") (at 105.41 46.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e7784a)
     (property "Reference" "#PWR0306" (id 0) (at 105.41 53.34 0)
@@ -1376,7 +1383,7 @@
     (pin "1" (uuid 33e355ad-c009-40c6-95be-a9839792d97c))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 95.25 77.47 0) (mirror y)
+  (symbol (lib_id "Device:C_Small") (at 95.25 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e941ff)
     (property "Reference" "C302" (id 0) (at 92.9132 76.3016 0)
@@ -1398,7 +1405,7 @@
     (pin "2" (uuid ecbf1be8-3a2e-4c21-9125-d4e1d94379b3))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 105.41 77.47 0)
+  (symbol (lib_id "Device:C_Small") (at 105.41 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e94206)
     (property "Reference" "C306" (id 0) (at 107.7468 76.3016 0)
@@ -1420,7 +1427,7 @@
     (pin "2" (uuid 832f9019-a870-4789-a9b9-6b8920c0ef98))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead_Small") (at 100.33 73.66 270)
+  (symbol (lib_id "Device:FerriteBead_Small") (at 100.33 73.66 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e9420d)
     (property "Reference" "FB302" (id 0) (at 100.33 67.6402 90))
@@ -1438,7 +1445,7 @@
     (pin "2" (uuid b041e0ee-1478-436a-9f17-cd2e83a911fa))
   )
 
-  (symbol (lib_id "power:GND") (at 95.25 81.28 0)
+  (symbol (lib_id "power:GND") (at 95.25 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e94213)
     (property "Reference" "#PWR0303" (id 0) (at 95.25 87.63 0)
@@ -1454,7 +1461,7 @@
     (pin "1" (uuid f85563c6-3285-46c6-a23f-d04429d9ad89))
   )
 
-  (symbol (lib_id "power:GND") (at 105.41 81.28 0)
+  (symbol (lib_id "power:GND") (at 105.41 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e94219)
     (property "Reference" "#PWR0307" (id 0) (at 105.41 87.63 0)
@@ -1520,7 +1527,7 @@
     (pin "1" (uuid a8c9ac0a-1e4f-4ed0-b1c7-b33608a1979b))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 95.25 111.76 0) (mirror y)
+  (symbol (lib_id "Device:C_Small") (at 95.25 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e97108)
     (property "Reference" "C303" (id 0) (at 92.9132 110.5916 0)
@@ -1542,7 +1549,7 @@
     (pin "2" (uuid c9c6d043-9d8d-4533-a296-8ff95bf03c95))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 105.41 111.76 0)
+  (symbol (lib_id "Device:C_Small") (at 105.41 111.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e9710f)
     (property "Reference" "C307" (id 0) (at 107.7468 110.5916 0)
@@ -1564,7 +1571,7 @@
     (pin "2" (uuid 75e3a46b-a343-4690-928c-fea2c4011b18))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead_Small") (at 100.33 107.95 270)
+  (symbol (lib_id "Device:FerriteBead_Small") (at 100.33 107.95 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e97116)
     (property "Reference" "FB303" (id 0) (at 100.33 101.9302 90))
@@ -1582,7 +1589,7 @@
     (pin "2" (uuid 242fe0f1-7aa3-4b71-abb8-d2f9c64b1b56))
   )
 
-  (symbol (lib_id "power:GND") (at 95.25 115.57 0)
+  (symbol (lib_id "power:GND") (at 95.25 115.57 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e9711c)
     (property "Reference" "#PWR0304" (id 0) (at 95.25 121.92 0)
@@ -1598,7 +1605,7 @@
     (pin "1" (uuid 20a150e2-36c0-4744-9f41-31ab9c8b14db))
   )
 
-  (symbol (lib_id "power:GND") (at 105.41 115.57 0)
+  (symbol (lib_id "power:GND") (at 105.41 115.57 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e97122)
     (property "Reference" "#PWR0308" (id 0) (at 105.41 121.92 0)
@@ -1664,7 +1671,7 @@
     (pin "1" (uuid c4121d86-2dd5-4662-9594-148afb9d1351))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 95.25 146.05 0) (mirror y)
+  (symbol (lib_id "Device:C_Small") (at 95.25 146.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e9af0e)
     (property "Reference" "C304" (id 0) (at 92.9132 144.8816 0)
@@ -1686,7 +1693,7 @@
     (pin "2" (uuid c7b834fd-fd8d-428d-99f3-2e74488cb727))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 105.41 146.05 0)
+  (symbol (lib_id "Device:C_Small") (at 105.41 146.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e9af15)
     (property "Reference" "C308" (id 0) (at 107.7468 144.8816 0)
@@ -1708,7 +1715,7 @@
     (pin "2" (uuid f6b3e4a0-ca2b-4353-a701-8aa8dd4f5e68))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead_Small") (at 100.33 142.24 270)
+  (symbol (lib_id "Device:FerriteBead_Small") (at 100.33 142.24 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e9af1c)
     (property "Reference" "FB304" (id 0) (at 100.33 136.2202 90))
@@ -1726,7 +1733,7 @@
     (pin "2" (uuid 00fead78-ab97-4d00-b653-286a285aff1c))
   )
 
-  (symbol (lib_id "power:GND") (at 95.25 149.86 0)
+  (symbol (lib_id "power:GND") (at 95.25 149.86 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e9af22)
     (property "Reference" "#PWR0305" (id 0) (at 95.25 156.21 0)
@@ -1742,7 +1749,7 @@
     (pin "1" (uuid 1c741060-97d2-4298-aae9-eee359b3bae4))
   )
 
-  (symbol (lib_id "power:GND") (at 105.41 149.86 0)
+  (symbol (lib_id "power:GND") (at 105.41 149.86 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e9af28)
     (property "Reference" "#PWR0309" (id 0) (at 105.41 156.21 0)

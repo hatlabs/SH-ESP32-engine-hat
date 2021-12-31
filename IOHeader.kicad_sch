@@ -510,7 +510,7 @@
     (pin "4" (uuid ab2512e9-f52b-45c3-9910-6bf6c17c2bbb))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 96.52 105.41 0)
+  (symbol (lib_id "power:+3.3V") (at 96.52 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc7f296)
     (property "Reference" "#PWR0404" (id 0) (at 96.52 109.22 0)
@@ -578,7 +578,7 @@
     (pin "1" (uuid b8475d55-603f-4665-a6ee-f583099b1be1))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 95.25 66.04 0)
+  (symbol (lib_id "power:+3.3V") (at 95.25 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060a8f865)
     (property "Reference" "#PWR0403" (id 0) (at 95.25 69.85 0)

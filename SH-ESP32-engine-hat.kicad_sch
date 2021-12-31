@@ -590,15 +590,6 @@
     (path "/00000000-0000-0000-0000-0000606cc7c9/00000000-0000-0000-0000-000060db7a00"
       (reference "FB504") (unit 1) (value "GZ2012D601TF") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005fc0c355/00000000-0000-0000-0000-0000612e7184"
-      (reference "H201") (unit 1) (value "Tooling hole") (footprint "SH-ESP32-tank-hat:JlcpcbToolingHole")
-    )
-    (path "/00000000-0000-0000-0000-00005fc0c355/00000000-0000-0000-0000-0000612e755b"
-      (reference "H202") (unit 1) (value "Tooling hole") (footprint "SH-ESP32-tank-hat:JlcpcbToolingHole")
-    )
-    (path "/00000000-0000-0000-0000-00005fc0c355/00000000-0000-0000-0000-0000612e7c94"
-      (reference "H203") (unit 1) (value "Tooling hole") (footprint "SH-ESP32-tank-hat:JlcpcbToolingHole")
-    )
     (path "/00000000-0000-0000-0000-0000608adff7/00000000-0000-0000-0000-000060e6dbcc"
       (reference "J301") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal")
     )

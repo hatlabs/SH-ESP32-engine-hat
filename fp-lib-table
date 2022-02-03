@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name SH-ESP32-tank-hat)(type KiCad)(uri ${KIPRJMOD}/SH-ESP32-engine-hat.pretty)(options "")(descr ""))
+  (lib (name "SH-ESP32-tank-hat")(type "KiCad")(uri "${KIPRJMOD}/SH-ESP32-engine-hat.pretty")(options "")(descr ""))
+  (lib (name "kikit")(type "KiCad")(uri "${KIPRJMOD}/kikit.pretty")(options "")(descr ""))
 )

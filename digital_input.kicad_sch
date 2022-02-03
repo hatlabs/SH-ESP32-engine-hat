@@ -6,8 +6,10 @@
 
   (title_block
     (title "Engine Top Hat for SH-ESP32")
-    (date "2021-12-31")
+    (date "2022-02-03")
     (rev "1.0.0")
+    (comment 1 "https://creativecommons.org/licenses/by/4.0")
+    (comment 3 "This design is licensed under CC BY 4.0.")
   )
 
   (lib_symbols

@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name "SH-ESP32-tank-hat")(type "Legacy")(uri "${KIPRJMOD}/SH-ESP32-engine-hat.lib")(options "")(descr ""))
-  (lib (name "SH-ESP32-engine-hat-rescue")(type "Legacy")(uri "${KIPRJMOD}/SH-ESP32-engine-hat-rescue.lib")(options "")(descr ""))
+  (lib (name "SH-ESP32-engine-hat")(type "KiCad")(uri "${KIPRJMOD}/SH-ESP32-engine-hat.kicad_sym")(options "")(descr ""))
 )
